@@ -1,0 +1,131 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.title{
+    width: 100vw;
+    height: 20vh;
+ box-sizing: border-box;
+     
+    padding: 20px;
+    text-align: left;
+}
+.cat_sec{
+   width: 100vw;
+   box-sizing: border-box;
+   /* min-height: 40vh; */
+    background-color: rgb(192, 191, 191);
+    grid-template-columns: 17px 17px 17px 17px 17px 17px  ;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: grid;
+}
+.cat{
+    height: 10%;
+    width: 4vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 20px;
+    font-size: 1em;
+    background-color: white;
+   cursor: pointer;
+   text-transform: capitalize;
+   font-weight: bold;
+   box-shadow: 1px 3px 2px -3px;
+   ;
+}
+.colv{
+    background-color: rgb(46, 109, 243);
+
+
+}
+.selectedTitle{
+    text-transform: capitalize;
+    padding: 10px;
+    height: 5vh;
+}
+.newJokeBtn{
+    color: rgb(46, 109, 243);
+    margin: 10px;
+    cursor: pointer;
+}
+.jokeDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.jokeArea{
+    color: white;
+    font-size: 1.3em;
+    padding: 20px;
+   
+    background-color: rgb(85, 174, 247);
+    display: flex;
+    
+    min-height: 30vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        width: 100vw;
+        height: 10vh;
+     box-sizing: border-box;
+         
+        padding: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .cat_sec{
+        width: 100%;
+         background-color: rgb(167, 167, 167);
+         grid-template-columns: 25px 25px 25px 25px ;
+         justify-content: space-evenly;
+         
+         display: grid;
+         border-radius: 5px;
+     }
+     .cat{
+        height: 3%;
+        width: 6vw;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding:20px;
+        font-size: .8em;
+        background-color: white;
+       cursor: pointer;
+       text-transform: capitalize;
+       font-weight: bold;
+       box-shadow: 1px 3px 2px -3px;
+       ;
+    }
+    .jokeArea{
+        color: white;
+        font-size: 1.3em;
+        padding: 20px;
+       
+        background-color: rgb(85, 174, 247);
+        display: flex;
+        
+        min-height: 30vh;
+        width: 100vw;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    border-radius: 5px;
+    }
+  }
